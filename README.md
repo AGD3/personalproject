@@ -1,3 +1,37 @@
+## Quick Start Guide
+npx create-react-app client
+npm start
+npm install -g react-devtools
+install 'react-router'                            ***Failed to compile.
+
+                            ./src/App.js
+                            Module not found: Can't resolve 'react-router' in 'C:\Users\TopCoder\Documents\CodeSquad\Personal Project\Zillow Clone Examples\PP4\client\src'*** 
+npm outdated
+                Package         Current   Wanted   Latest  Location
+                axios           MISSING   0.19.2   0.19.2  client
+                react           16.13.1   15.6.2  16.13.1  client
+                react-dom       16.13.1   15.6.2  16.13.1  client
+                react-redux     MISSING    5.1.2    7.2.0  client
+                react-scripts     3.4.1   1.0.10    3.4.1  client
+                react-slick     MISSING  0.14.11   0.25.2  client
+                redux           MISSING    3.7.2    4.0.5  client
+                redux-logger    MISSING    3.0.6    3.0.6  client
+                redux-thunk     MISSING    2.3.0    2.3.0  client
+                slick-carousel  MISSING    1.8.1    1.8.1  client
+                react-router      3.0.2    3.2.6    5.1.2  client
+npm install axios@0.19.2
+//repeat for all packages above @wanted
++ react-scripts@1.0.10
+
++ react-slick@0.14.11
+***found 93 vulnerabilities (49 low, 19 moderate, 25 high)***
++ redux 
+//
+npm audit fix
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
